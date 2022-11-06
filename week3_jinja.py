@@ -13,3 +13,6 @@ TEMPLATE="""Hello there, this is {{name}} here!"""
 def main():
   template=Template(TEMPLATE)
   print(template.render(name="Maitry"))
+  
+if __name__=="__main__":
+    main()
