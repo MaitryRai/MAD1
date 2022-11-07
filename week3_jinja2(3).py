@@ -5,7 +5,7 @@ from jinja2 import Template
 forbes_data=[{"Name":"Raghuram G Rajan","Domain":"Economic Policy","Country":"India"},
              {"Name":"Raj Chetty","Domain":"Data & Policy","Country":"USA"},
              {"Name":"Rishi Sunak","Domain":"Politics","Country":"Britain"},
-             {"Name":"Chinmay Tumbe","Domain":"Social Policy","Country":"India"}
+             {"Name":"Chinmay Tumbe","Domain":"Social Policy","Country":"India"},
             {"Name":"Sundar Pichai","Domain":"Technology","Country":"USA"}]
 
 TEMPLATE='''
@@ -37,7 +37,7 @@ TEMPLATE='''
    </table>
  </body>
  </html>
-''''
+'''
 
 def main():
   template=Template(TEMPLATE)
